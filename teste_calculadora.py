@@ -9,4 +9,6 @@ def main():
     print(f'{a} - {b} = {subtração}')
     produto = calculadora.multiplicar(a, b)
     print(f'{a} * {b} = {produto}')
+    quociente = calculadora.dividir(a, b)
+    print(f'{a} / {b} = {quociente}')
 main()
