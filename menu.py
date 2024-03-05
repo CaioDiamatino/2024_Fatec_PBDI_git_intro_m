@@ -28,7 +28,14 @@ def menu():
         b = input(int("Insira o segundo numero"))
         quociente = calculadora.dividir(a, b)
         print(f'{a} + {b} = {quociente}')
+    elif seleção == 0:
+        print("Você saiu")
+        break
     
+    else:
+        print("Opição invalida")
+        break
+        
 
     return
 
