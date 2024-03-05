@@ -13,6 +13,11 @@ def menu():
         b = input(int("Insira o segundo numero"))
         soma = calculadora.somar(a, b)
         print(f'{a} + {b} = {soma}')
+    elif seleção == 1:
+        a = input(int("Insira o primeiro numero"))
+        b = input(int("Insira o segundo numero"))
+        subtrair = calculadora.subtrair(a, b)
+        print(f'{a} - {b} = {subtrair}')
     
     return
 
