@@ -13,11 +13,17 @@ def menu():
         b = input(int("Insira o segundo numero"))
         soma = calculadora.somar(a, b)
         print(f'{a} + {b} = {soma}')
-    elif seleção == 1:
+    elif seleção == 2:
         a = input(int("Insira o primeiro numero"))
         b = input(int("Insira o segundo numero"))
         subtrair = calculadora.subtrair(a, b)
         print(f'{a} - {b} = {subtrair}')
+    elif seleção == 3:
+        a = input(int("Insira o primeiro numero"))
+        b = input(int("Insira o segundo numero"))
+        produto = calculadora.multiplicar(a, b)
+        print(f'{a} * {b} = {produto}')
+    
     
     return
 
