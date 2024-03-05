@@ -23,8 +23,13 @@ def menu():
         b = input(int("Insira o segundo numero"))
         produto = calculadora.multiplicar(a, b)
         print(f'{a} * {b} = {produto}')
+    elif seleção == 4:
+        a = input(int("Insira o primeiro numero"))
+        b = input(int("Insira o segundo numero"))
+        quociente = calculadora.dividir(a, b)
+        print(f'{a} + {b} = {quociente}')
     
-    
+
     return
 
 menu()
